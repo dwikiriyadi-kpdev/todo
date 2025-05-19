@@ -1,0 +1,24 @@
+name: remote
+description: "A networking module that handles secure API communication, data serialization, encryption and remote operations for Flutter applications."
+version: 0.0.5
+homepage: 'https://github.com/KB-FMF/flutter-package-core.git'
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.0
+  flutter: '>=3.3.0'
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: 4.9.0
+  equatable: 2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+  json_serializable: 6.9.4
+  build_runner: 2.4.15
