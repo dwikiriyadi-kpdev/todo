@@ -1,0 +1,11 @@
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    always_use_package_imports: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
